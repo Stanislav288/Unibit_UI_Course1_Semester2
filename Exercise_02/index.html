@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+
+  <link href="./style.css" rel="stylesheet">
+
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+
+</head>
+
+<body>
+
+   <h1>Arithmetic Operation</h1>
+
+  <form>
+
+    <table>
+      <tr>
+        <td>
+          <label id="x_label" for="x">X:</label>
+          <input type="number" id="x" value="">
+        </td>
+        <td>
+          <label id="y_label" for="y">Y:</label>
+          <input type="number" id="y" value="">
+        </td>
+        <td>
+          <select id="arithmetic_operation">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="addition">Addition</option>
+            <option value="subtraction">Subtraction</option>
+            <option value="multiplication">Multiplication</option>
+            <option value="division">Division</option>
+            <option value="modulus">Modulus</option>
+            <option value="increment">Increment</option>
+            <option value="decrement">Decrement</option>
+          </select>
+        </td>
+        <td>
+          <input id="arithmetic_button" type="button" value="Execute">
+        </td>
+        <td>
+          <output id="arithmetic_ouput"></output>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+<hr>
+
+<h1>Comparison Operation</h1>
+
+<form>
+
+  <table>
+    <tr>
+      <td>
+        <label id="comp_x_label" for="comp_x">X:</label>
+        <input type="text" id="comp_x" value="">
+      </td>
+      <td>
+        <label id="comp_y_label" for="comp_y">Y:</label>
+        <input type="text" id="comp_y" value="">
+      </td>
+      <td>
+        <select id="comparison_operation">
+          <option disabled selected value> -- select an option -- </option>
+          <option value="==">==</option>
+          <option value="===">===</option>
+          <option value="!=">!=</option>
+          <option value="!==">!==</option>
+          <option value="&gt">&gt</option>
+          <option value="&lt">&lt</option>
+          <option value="&gt=">&gt=</option>
+          <option value="&lt=">&lt=</option>
+        </select>
+      </td>
+      <td>
+        <input id="comparison_button" type="button" value="Execute">
+      </td>
+      <td>
+        <output id="comparison_ouput"></output>
+      </td>
+    </tr>
+  </table>
+</form>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

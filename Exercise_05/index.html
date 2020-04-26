@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+ 
+  <link href="./style.css" rel="stylesheet">
+  
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+  
+</head>
+
+<body>
+
+<div class = "test">
+  <h1>Car Creation</h1>
+  
+<form >
+
+ 
+  <!--make-->
+  <select id="cars_make">
+    <option disabled selected value> -- select an option -- </option>
+    <option value="volvo">Volvo</option>
+    <option value="volkswagen">Volkswagen</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+
+  <div id="container_models">
+  <!--Volkswagen   beetle, voyage, fox, polo, golf-->
+    <div id="container_volkswagen">
+      <input type="radio" id="beetle" name="choice_volkswagen" value="Beetle">
+      <label for="beetle">Beetle</label><br>
+
+      <input type="radio" id="voyage" name="choice_volkswagen" value="Voyage">
+      <label for="voyage">Voyage</label><br>
+
+      <input type="radio" id="fox" name="choice_volkswagen" value="Fox">
+      <label for="fox">Fox</label><br>
+
+      <input type="radio" id="polo" name="choice_volkswagen" value="Polo">
+      <label for="polo">Polo</label><br>
+
+      <input type="radio" id="golf" name="choice_volkswagen" value="Golf">
+      <label for="golf">Golf</label><br>
+    </div>
+
+    <!--Volvo     C30, S60, V70-->
+    <div id="container_volvo">
+      <input type="radio" id="c30" name="choice_volvo" value="C30">
+      <label for="c30">C30</label><br>
+
+      <input type="radio" id="s60" name="choice_volvo" value="S60">
+      <label for="s60">S60</label><br>
+
+      <input type="radio" id="v70" name="choice_volvo" value="V70">
+      <label for="v70">V70</label><br>
+    </div>
+
+    <!--Opel      Frontera-->
+    <div id="container_opel">
+      <input type="radio" id="frontera" name="choice_opel" value="Frontera">
+      <label for="frontera">Frontera</label><br>
+    </div>
+
+    <!--Audi     A1, A8, Q7, TT-->
+    <div id="container_audi"> 
+      <input type="radio" id="a1" name="choice_audi" value="A1">
+      <label for="a1">A1</label><br>
+
+      <input type="radio" id="a8" name="choice_audi" value="A8">
+      <label for="a8">A8</label><br>
+
+      <input type="radio" id="q7" name="choice_audi" value="Q7">
+      <label for="q7">Q7</label><br>
+
+      <input type="radio" id="tt" name="choice_audi" value="TT">
+      <label for="tt">TT</label><br>
+    </div>
+  </div>
+  
+  <br>
+
+  <label for="max_speed">Max Speed:</label>
+  <input type="number" id="max_speed"><br><br>
+
+  <label for="color">Color:</label>
+  <input type="color" id="color"><br><br>
+  
+  <label for="make_date">Make Date:</label>
+  <input type="date" id="make_date"><br><br>
+
+  <div id="container_extras">
+    <h2>Extras</h2>
+    <input type="checkbox" id="suspension" name="extras" value="Luxury Suspension">
+    <label for="suspension"> Luxury Suspension</label><br>
+    <input type="checkbox" id="interior" name="extras" value="Luxury Interior">
+    <label for="interior"> Luxury Interior</label><br>
+    <input type="checkbox" id="exterior" name="extras" value="Luxury Exterior">
+    <label for="exterior"> Luxury Exterior</label><br>
+  </div>
+ 
+
+  <input id="car_button" type="button" value="Submit"/>
+  <!-- <output form="string_form" id="output_string" name="output_string" ></output> -->
+</form>
+</div>
+
+<div id="div_output">
+</div>
+<script src="./script.js"></script>
+</body>
+
+</html>

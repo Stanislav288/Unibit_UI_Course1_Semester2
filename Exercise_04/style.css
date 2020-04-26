@@ -1,0 +1,43 @@
+.test{
+    border: 1px solid black;
+    margin: 5%;
+}
+
+.test p{
+    text-align: center;
+    font-size: 24px;
+}
+
+form{
+    margin: 3%;
+}
+output{
+    border:1px solid black;
+    margin-top:1%;
+    padding: 1%;
+    display: block;
+}
+
+#operation_value{
+    display:none;
+}
+
+#operation_value_label{
+    display:none;
+}
+
+/* #array_operation_value{
+    display:none;
+}
+
+#array_operation_value_label{
+    display:none;
+} */
+
+#array_element_value_label{
+    display:none;
+}
+
+#array_element_value{
+    display:none;
+}

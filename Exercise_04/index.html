@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+ 
+  <link href="./style.css" rel="stylesheet">
+  
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+  
+</head>
+
+<body>
+
+<div class = "test">
+  <p>Test String</p>
+  
+<form id="string_form">
+  <label id="element_value_label" for="element_value">String:</label>
+  <input type="text" id="element_value" value="test string"><br><br>
+  <label id="operation_value_label" for="operation_value">Operation value:</label>
+  <input type="text" id="operation_value" value=""><br><br>
+
+  <div>
+    <input type="radio" id="text_search" name="string_operation" value="search">
+    <label for="search">Search</label><br>
+    <input type="radio" id="text_upper_case" name="string_operation" value="upper_case">
+    <label for="upper_case">Upper Case</label><br>
+    <input type="radio" id="text_lower_case" name="string_operation" value="lower_case">
+    <label for="lower_case">Lower Case</label>
+  </div>
+
+  <input id="string_form_button" type="button" value="Submit"/>
+  <output form="string_form" id="output_string" name="output_string" ></output>
+</form>
+
+</div>
+
+<div class = "test">
+  <p>Test Array</p>
+
+  <form id="array_form">
+    <!-- <label id="array_element_value_label" for="array_element_value">Array:</label>
+    <input type="text" id="array_element_value" value=""><br><br> -->
+
+    <label id="array_operation_value_label" for="array_operation_value">Operation value:</label>
+    <input type="text" id="array_operation_value" value=""><br><br>
+  
+    <div>
+      <input type="radio" id="array_pop" name="array_operation" value="array_pop">
+      <label for="array_pop">Pop</label><br>
+      <input type="radio" id="array_push" name="array_operation" value="array_push">
+      <label for="array_push">Push</label><br>
+      <input type="radio" id="array_get_by_index" name="array_operation" value="array_get_by_index">
+      <label for="array_get_by_index">Get By Index</label>
+    </div>
+  
+    <input id="array_form_button" type="button" value="Submit"/>
+    <output form="array_form" id="output_array" name="output_array" ></output>
+  </form>
+</div>
+
+<script src="./script.js"></script>
+</body>
+
+</html>

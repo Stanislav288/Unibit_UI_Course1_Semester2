@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.test{
+    border: 1px solid black;
+    margin: 5%;
+}
+
+
+#div_output{
+    border: 1px solid black;
+    margin: 5%;
+    padding: 1%;
+}
+
+
+form{
+    margin: 3%;
+}
+
+output{
+    border:1px solid black;
+    margin-top:1%;
+    padding: 1%;
+    display: block;
+}
+
+#container_models>div{
+    display:none;
+}
